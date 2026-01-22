@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+:root {
+    --color-bg-darkest: rgb(23, 23, 23);
+    --color-bg-even-darker: rgb(163, 163, 163);
+    --color-bg-darker: rgb(212, 212, 212);
+    --color-bg-dark: rgb(229, 229, 229);
+    --color-bg-light: rgb(245, 245, 245);
+    --color-bg-lightest: rgb(250, 250, 250);
+    --color-border-default: rgb(229, 229, 229);
+}

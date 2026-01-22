@@ -22,7 +22,7 @@ const modules = [
 const Home = () => {
   return (
     <div 
-      className="min-h-screen w-full p-8 md:p-16 overflow-y-auto"
+      className="min-h-screen w-full p-8 md:p-16 overflow-y-auto "
       style={{ backgroundColor: 'var(--color-bg-darkest)' }}
     >
       <header className="mb-12 max-w-4xl mx-auto">
@@ -30,13 +30,13 @@ const Home = () => {
           className="text-4xl md:text-6xl font-light tracking-tighter mb-4"
           style={{ color: 'var(--color-bg-lightest)' }}
         >
-          Interface Index
+          Flex Layouts
         </h1>
         <p 
           className="text-lg font-light opacity-60"
           style={{ color: 'var(--color-bg-darker)' }}
         >
-          A collection of modern UI layouts and component recreations.
+          A collection of UI layouts implemented using React + Typescript + Tailwind
         </p>
       </header>
 
